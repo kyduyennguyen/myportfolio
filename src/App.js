@@ -15,23 +15,23 @@ function App() {
 			<Routes>
 				<Route
 					exact
-					path="https://kyduyennguyen.github.io/myportfolio/"
+					path="/"
 					element={<Home />}
 				/>
 				<Route
-					path="https://kyduyennguyen.github.io/myportfolio/about"
+					path="/about"
 					element={<About />}
 				/>
 				<Route
-					path="https://kyduyennguyen.github.io/myportfolio/contact"
+					path="/contact"
 					element={<Contact />}
 				/>
 				<Route
-					path="https://kyduyennguyen.github.io/myportfolio/archive"
+					path="/archive"
 					element={<Archive />}
 				/>
 				<Route
-					path="https://kyduyennguyen.github.io/myportfolio/myworks"
+					path="/myworks"
 					element={<MyWorks />}
 				/>
 			</Routes>
