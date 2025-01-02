@@ -1,0 +1,49 @@
+/* 1rem = 16px */
+.navbar {
+	padding: 0 20px 10px 20px;
+}
+
+.container {
+	display: grid;
+	height: 10rem;
+	top: 0;
+	width: 100%;
+	grid-template-columns: auto auto;
+	justify-content: space-around;
+	gap: 5rem;
+	text-align: center;
+	z-index: 8000;
+}
+
+.nav-items {
+	padding-top: 2.5rem;
+	display: grid;
+	grid-template-columns: 210px 210px 210px 210px;
+}
+
+.nav-link {
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #427d9d;
+	font-family: "Roboto Mono", monospace;
+	font-size: 1.2rem;
+	font-weight: 600;
+	letter-spacing: 0.2rem;
+}
+
+.nav-menu a:hover {
+	padding: 5px 0;
+	color: #265073;
+	border: 2px solid #eae3d2;
+	background-color: #eae3d2;
+	border-radius: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.logo {
+	width: 12rem;
+	height: 12rem;
+}

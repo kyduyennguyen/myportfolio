@@ -1,0 +1,89 @@
+.total-activities {
+	display: grid;
+	width: 80%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 40px;
+	margin: 1.5% 12%;
+	letter-spacing: 3px;
+}
+
+.activities {
+	color: #427d9d;
+	text-align: left;
+}
+
+.hr-activities {
+	height: 5px;
+	width: 35px;
+	color: #427d9d;
+	background-color: #427d9d;
+	margin-left: 0;
+	border: none;
+}
+
+.title-act {
+	color: #006989;
+}
+
+.title-names-act {
+	color: #607eaa;
+	font-weight: bold;
+	line-height: 22px;
+}
+
+.activities h6 {
+	font-weight: 350;
+	color: #9db2bf;
+}
+
+.activities p {
+	color: #689ab5;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.section-activities {
+	width: 80%;
+}
+
+.list-skills-act {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 12px;
+}
+
+.list-skills-act li {
+	padding-top: 10px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.hr-act {
+	height: 1px;
+	width: 70px;
+	color: #427d9d;
+	background-color: #427d9d;
+	margin-left: 0;
+	border: none;
+}
+
+.link-certs {
+	text-decoration: none;
+	font-weight: bold;
+	color: #607eaa;
+}
+
+.link-certs:hover {
+	color: #496083;
+}
+
+.lang {
+	color: #607eaa;
+}
+
+#note-eng {
+	color: #689ab5;
+	font-size: 11px;
+}

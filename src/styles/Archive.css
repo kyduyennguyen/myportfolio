@@ -1,0 +1,26 @@
+/* Cover image for archive page */
+.cover-archive {
+	position: relative;
+	padding: 0;
+}
+
+.img-cover-archive {
+	height: 346px;
+	width: 80%;
+	object-fit: cover;
+	margin-left: 11%;
+	margin-top: 2%;
+	opacity: 0.4;
+}
+
+.title-cover-archive {
+	position: absolute;
+	top: 30%;
+	width: 80%;
+	margin-left: 11%;
+	text-align: center;
+	font-size: 18px;
+	color: #607eaa;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px #54719f;
+}

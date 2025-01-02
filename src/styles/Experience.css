@@ -1,0 +1,82 @@
+.total-experience {
+	display: grid;
+	width: 80%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 40px;
+	margin: 1.5% 12%;
+	letter-spacing: 2px;
+}
+
+.experience {
+	color: #427d9d;
+}
+
+.hr-experience {
+	height: 5px;
+	width: 35px;
+	color: #427d9d;
+	background-color: #427d9d;
+	margin-left: 0;
+	border: none;
+}
+
+.title-exp {
+	color: #006989;
+}
+
+.title-names-exp {
+	color: #607eaa;
+	font-weight: bold;
+}
+
+.experience h6 {
+	font-weight: 350;
+	color: #9db2bf;
+}
+
+.section-exp {
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+.content-exp {
+	font-size: 14px;
+	line-height: 25px;
+	color: #427d9d;
+}
+
+.list-skills-exp {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 12px;
+}
+
+.list-skills-exp li {
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.hr-exp {
+	height: 1px;
+	width: 70px;
+	color: #427d9d;
+	background-color: #427d9d;
+	margin-left: 0;
+	border: none;
+}
+
+.experience h4,
+.experience h5,
+.experience h6,
+.experience p {
+	margin: 0;
+	margin-top: 10px;
+}
+
+.experience h5 {
+	line-height: 20px;
+	font-weight: 500;
+	font-style: italic;
+	color: #689ab5;
+}

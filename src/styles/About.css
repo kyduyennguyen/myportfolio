@@ -1,0 +1,12 @@
+.about {
+	margin-top: 10px;
+}
+
+.hr-about-experience {
+	width: 74%;
+	height: 2px;
+	margin: 0 12%;
+	color: #eae3d2;
+	background-color: #eae3d2;
+	border: none;
+}
