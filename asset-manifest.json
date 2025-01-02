@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.466d4a25.css",
+    "main.js": "/myportfolio/static/js/main.bbd1bc28.js",
+    "static/media/cover-archive.jpg": "/myportfolio/static/media/cover-archive.a22521c43be77cdec21f.jpg",
+    "static/media/cover-contact.jpg": "/myportfolio/static/media/cover-contact.05813a6cd0cbb5b2f48d.jpg",
+    "static/media/my-avatar.jpg": "/myportfolio/static/media/my-avatar.a0a165e7b2435e0a1bb8.jpg",
+    "static/media/logo.png": "/myportfolio/static/media/logo.d3af9f34486f0ad2001f.png",
+    "static/media/FoundationOfUX.pdf": "/myportfolio/static/media/FoundationOfUX.c2831863de25ec77beb5.pdf",
+    "static/media/StartTheUXProcess.pdf": "/myportfolio/static/media/StartTheUXProcess.77a64ecf4e1c4d454b46.pdf",
+    "static/media/BuildWireframesAndLowFidelityPrototypes.pdf": "/myportfolio/static/media/BuildWireframesAndLowFidelityPrototypes.85bb0f99574091184a67.pdf",
+    "static/media/ytb_channel.png": "/myportfolio/static/media/ytb_channel.71426a18601157207d58.png",
+    "static/media/FX227242SC_WEB101x_NDKD.pdf": "/myportfolio/static/media/FX227242SC_WEB101x_NDKD.6a0002e81f3d97ea0ddf.pdf",
+    "static/media/cv_img.png": "/myportfolio/static/media/cv_img.c8a5717254fbcc8abda4.png",
+    "static/media/github_channel.png": "/myportfolio/static/media/github_channel.a7b1cf4acd3b3644b7f5.png",
+    "static/media/age_calculate.png": "/myportfolio/static/media/age_calculate.fd34e4072f8c4fc2c06b.png",
+    "static/media/interactive-rating.png": "/myportfolio/static/media/interactive-rating.53ea02d972e65567d224.png",
+    "static/media/advice_generator.png": "/myportfolio/static/media/advice_generator.f721dc398d2601ac87b5.png",
+    "index.html": "/myportfolio/index.html",
+    "main.466d4a25.css.map": "/myportfolio/static/css/main.466d4a25.css.map",
+    "main.bbd1bc28.js.map": "/myportfolio/static/js/main.bbd1bc28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.466d4a25.css",
+    "static/js/main.bbd1bc28.js"
+  ]
+}
