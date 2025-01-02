@@ -13,11 +13,27 @@ function App() {
 		<Router>
 			<NavBar />
 			<Routes>
-				<Route exact path="/" element={<Home />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="/archive" element={<Archive />} />
-				<Route path="/myworks" element={<MyWorks />} />
+				<Route
+					exact
+					path="https://kyduyennguyen.github.io/myportfolio/"
+					element={<Home />}
+				/>
+				<Route
+					path="https://kyduyennguyen.github.io/myportfolio/about"
+					element={<About />}
+				/>
+				<Route
+					path="https://kyduyennguyen.github.io/myportfolio/contact"
+					element={<Contact />}
+				/>
+				<Route
+					path="https://kyduyennguyen.github.io/myportfolio/archive"
+					element={<Archive />}
+				/>
+				<Route
+					path="https://kyduyennguyen.github.io/myportfolio/myworks"
+					element={<MyWorks />}
+				/>
 			</Routes>
 			<Footer />
 		</Router>
