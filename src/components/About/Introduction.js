@@ -12,7 +12,10 @@ export const Introduction = () => {
 				</div>
 				<div className="intro-items-2">
 					<h2 className="intro-title">DUYEN NGUYEN (Angelly)</h2>
-					<h3 className="intro-title">Web Developer Software Engineer</h3>
+					<h3 className="intro-title">
+						Web Developer <br />
+						Software Engineer
+					</h3>
 					<h5 className="intro-title">
 						<em>VietNam, since 1996</em>
 					</h5>

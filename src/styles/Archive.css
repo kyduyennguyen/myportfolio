@@ -24,3 +24,16 @@
 	text-transform: uppercase;
 	text-shadow: 2px 2px 5px #54719f;
 }
+
+@media (min-width: 414px) and (max-width: 428px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.img-cover-archive {
+		height: 200px;
+		width: 100%;
+		margin-left: 0;
+		margin-top: 6%;
+	}
+}

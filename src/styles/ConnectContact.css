@@ -1,7 +1,7 @@
 .connect-contact {
 	display: grid;
 	width: 80%;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(4, 1fr);
 	gap: 40px;
 	margin: 1.5% 12%;
 }
@@ -61,4 +61,37 @@
 	background-color: #faf1dc;
 	color: #427d9d;
 	border: 1px solid #427d9d;
+}
+
+@media (min-width: 414px) and (max-width: 428px) {
+	.connect-contact {
+		display: grid;
+		width: 100%;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, auto);
+		gap: 0;
+		margin: 0;
+		letter-spacing: 2px;
+		padding: 0;
+		padding-left: 20px;
+	}
+
+	.conn-cont h3 {
+		padding: 0;
+		margin: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.btn-contact {
+		width: 0;
+		grid-column: 1;
+		grid-row: 3;
+		padding-top: 20px;
+		padding-left: 20%;
+	}
+
+	.btn-contact button {
+		border-radius: 10px;
+	}
 }

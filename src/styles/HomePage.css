@@ -22,3 +22,23 @@
 	text-shadow: 2px 2px 5px #394867;
 	font-weight: 800;
 }
+
+@media (min-width: 414px) and (max-width: 428px) {
+	.intro-work-page {
+		text-align: center;
+		margin: 0;
+		width: 100%;
+		padding: 0;
+		padding-bottom: 2px;
+		border-radius: 0;
+		margin-top: 6%;
+	}
+
+	.intro-work-page p {
+		font-size: 1.3rem;
+		padding-top: 15px;
+		padding-left: 5px;
+		padding-right: 5px;
+		line-height: 2rem;
+	}
+}

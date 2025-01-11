@@ -80,3 +80,53 @@
 	font-style: italic;
 	color: #689ab5;
 }
+
+@media (min-width: 414px) and (max-width: 428px) {
+	.total-experience {
+		display: grid;
+		width: 100%;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, auto);
+		gap: 0;
+		margin: 0;
+		letter-spacing: 2px;
+		padding: 0;
+	}
+
+	.experience {
+		padding-left: 20px;
+	}
+
+	.hr-experience {
+		height: 5px;
+		width: 100px;
+		margin-left: 0;
+	}
+
+	.section-exp {
+		width: 90%;
+		margin-bottom: 10px;
+	}
+
+	.content-exp {
+		text-align: justify;
+		line-height: 25px;
+	}
+
+	.hr-exp {
+		height: 1px;
+		width: 200px;
+	}
+
+	.experience h5 {
+		line-height: 20px;
+	}
+
+	.experience h4,
+	.experience h5,
+	.experience h6,
+	.experience p {
+		margin: 0;
+		margin-top: 5px;
+	}
+}

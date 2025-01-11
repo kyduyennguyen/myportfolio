@@ -69,3 +69,87 @@
 	height: 50px;
 	width: 50%;
 }
+
+@media (min-width: 414px) and (max-width: 428px) {
+	* {
+		padding: 0;
+		margin: 0;
+	}
+
+	.project-frame {
+		/* display: block;
+		height: 580px; */
+		grid-template-columns: auto;
+		grid-template-rows: repeat(3, auto);
+		gap: 5px;
+		justify-content: initial;
+		align-items: center;
+		height: 600px;
+		margin: 0;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.project-frame-2 {
+		grid-template-columns: auto;
+		grid-template-rows: repeat(3, auto);
+		gap: 5px;
+		justify-content: initial;
+		align-items: center;
+		height: 450px;
+		margin: 0;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.image-pp {
+		height: 200px;
+		width: 300px;
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+
+	.image-pp-2 {
+		grid-row: 1;
+		height: 200px;
+		width: 300px;
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+
+	.content-pp {
+		padding-top: 3%;
+	}
+
+	.project-frame-2 .content-pp {
+		grid-row: 2;
+	}
+
+	.project-product h1 {
+		text-align: center;
+	}
+
+	.project-product p {
+		width: 90%;
+		font-size: 14px;
+		text-align: justify;
+		padding-left: 5%;
+	}
+
+	.see-more-btn {
+		margin-top: 3%;
+		border-radius: 10px;
+	}
+
+	.see-more-btn-2 {
+		grid-row: 3;
+		margin: 0;
+		/* margin-top: 3%; */
+		border-radius: 10px;
+	}
+
+	.link-btn {
+		margin-left: 20%;
+		padding-bottom: 30px;
+	}
+}

@@ -10,3 +10,9 @@
 	background-color: #eae3d2;
 	border: none;
 }
+
+@media (min-width: 414px) and (max-width: 428px) {
+	.hr-about-experience {
+		margin: 5% 12% 2% 12%;
+	}
+}

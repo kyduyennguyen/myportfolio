@@ -54,26 +54,6 @@ export const ProjectsProducts = () => {
 					alt="Cover Github Channel"
 				/>
 			</div>
-			<div className="project-frame">
-				<div className="image-pp">
-					<p>Image</p>
-				</div>
-				<div className="content-pp">
-					<h1>Title Projects/Products</h1>
-					<p>basic introduction</p>
-				</div>
-				<button className="see-more-btn">SEE MORE</button>
-			</div>
-			<div className="project-frame">
-				<button className="see-more-btn-2">SEE MORE</button>
-				<div className="content-pp">
-					<h1>Title Projects/Products</h1>
-					<p>basic introduction</p>
-				</div>
-				<div className="image-pp-2">
-					<p>Image</p>
-				</div>
-			</div>
 		</div>
 	);
 };

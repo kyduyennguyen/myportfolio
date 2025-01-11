@@ -47,3 +47,32 @@
 	width: 12rem;
 	height: 12rem;
 }
+
+@media (min-width: 414px) and (max-width: 428px) {
+	.navbar {
+		padding: 0 0 15px 0;
+	}
+
+	.container {
+		height: 3rem;
+		top: 0;
+		width: 100%;
+		gap: 0.5px;
+	}
+
+	.nav-items {
+		padding-top: 1rem;
+		grid-template-columns: repeat(2, 120px);
+		grid-template-rows: repeat(2, 30px);
+		gap: 0.5rem;
+	}
+
+	.nav-link {
+		font-size: 14px;
+	}
+
+	.logo {
+		width: 5rem;
+		height: 5rem;
+	}
+}
