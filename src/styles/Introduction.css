@@ -59,6 +59,52 @@
 	line-height: 30px;
 }
 
+@media (min-width: 320px) and (max-width: 400px) {
+	.intro-frame {
+		width: 100%;
+		display: block;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	.my-avatar {
+		height: 290px;
+		width: 290px;
+	}
+
+	.intro-items-2 {
+		margin-top: 6px;
+		width: 100%;
+	}
+
+	.intro-items-2 h2 {
+		margin-top: 0;
+		font-size: 30px;
+		letter-spacing: 0;
+		margin-left: 3%;
+	}
+
+	.intro-items-2 h3 {
+		margin-top: 6px;
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 1.5px;
+	}
+
+	.intro-items-2 h5 {
+		padding-bottom: 5%;
+	}
+
+	.intro-quotes {
+		text-align: justify;
+		margin-top: 0;
+		padding: 0 3%;
+		line-height: 26px;
+		font-size: 12px;
+	}
+}
+
 @media (min-width: 414px) and (max-width: 428px) {
 	.intro-frame {
 		width: 100%;

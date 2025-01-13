@@ -130,7 +130,7 @@ export const Experience = () => {
 				</div>
 				{/* Technical Skill part */}
 				<div className="experience">
-					<h3 className="title-exp">TECHNICAL SKILL</h3>
+					<h3 className="title-exp">TECHNICAL SKILLS</h3>
 					<hr className="hr-experience" />
 					<ul className="list-skills-exp">
 						<li>Figma</li>

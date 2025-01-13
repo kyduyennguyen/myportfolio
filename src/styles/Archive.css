@@ -25,11 +25,36 @@
 	text-shadow: 2px 2px 5px #54719f;
 }
 
+@media (min-width: 320px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.img-cover-archive {
+		height: 200px;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.title-cover-archive {
+		font-size: 16px;
+		top: 5%;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+	.title-cover-archive {
+		top: 25%;
+	}
+}
+
 @media (min-width: 414px) and (max-width: 428px) {
 	* {
 		margin: 0;
 		padding: 0;
 	}
+
 	.img-cover-archive {
 		height: 200px;
 		width: 100%;

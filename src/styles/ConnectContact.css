@@ -63,6 +63,43 @@
 	border: 1px solid #427d9d;
 }
 
+@media (min-width: 320px) and (max-width: 400px) {
+	.connect-contact {
+		display: grid;
+		width: 100%;
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(3, auto);
+		gap: 0;
+		margin: 0;
+		letter-spacing: 2px;
+		padding: 0;
+		padding-left: 3%;
+	}
+
+	.conn-cont h3 {
+		padding: 0;
+		margin: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.contact li {
+		font-size: 12px;
+	}
+
+	.btn-contact {
+		width: 0;
+		grid-column: 1;
+		grid-row: 3;
+		padding-top: 5%;
+		padding-left: 12%;
+	}
+
+	.btn-contact button {
+		border-radius: 10px;
+	}
+}
+
 @media (min-width: 414px) and (max-width: 428px) {
 	.connect-contact {
 		display: grid;

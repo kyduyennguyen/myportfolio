@@ -107,7 +107,7 @@ export const Activities = () => {
 				</div>
 				{/* Languages Skill part */}
 				<div className="activities">
-					<h3 className="title-act">LANGUAGES SKILL</h3>
+					<h3 className="title-act">LANGUAGES SKILLS</h3>
 					<hr className="hr-activities" />
 					<ul className="list-skills-act">
 						<li>
@@ -124,7 +124,7 @@ export const Activities = () => {
 				</div>
 				{/* Design Skill part */}
 				<div className="experience">
-					<h3 className="title-exp">DESIGN SKILL</h3>
+					<h3 className="title-exp">DESIGN SKILLS</h3>
 					<hr className="hr-experience" />
 					<ul className="list-skills-exp">
 						<li>UI/UX</li>
